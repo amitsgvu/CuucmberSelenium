@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumDriver {
-//changes saved
+//changes saved ok
 	private static SeleniumDriver seleniumDriver;
 
 	// initialize webdriver
