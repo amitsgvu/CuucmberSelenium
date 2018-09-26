@@ -12,9 +12,10 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 /**
  * 
  * @author amisharm25
+ * runner class for invoking tests
  *
  */
-@CucumberOptions(plugin = {"json:target/positive/cucumber.json","pretty","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}, features = "src/test/resources/FeatureFile/login.feature", glue = "steps", monochrome = true, strict = true)
+@CucumberOptions(plugin = {"json:target/positive/cucumber.json","pretty","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}, features = "src/test/resources/FeatureFile/search.feature", glue = "steps", monochrome = true, strict = true)
 public class PositiveTest extends AbstractTestNGCucumberTests {
 	@AfterClass
 	public static void writeExtentReport() {
