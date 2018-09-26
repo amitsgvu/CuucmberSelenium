@@ -119,6 +119,8 @@ public class HomePageTest {
 
 	@Then("^i scroll down bottom of the page$")
 	public void i_scroll_down_bottom_of_the_page() throws Throwable {
+		
+		System.out.println("the jenkins server value is"+System.getenv("server"));
 		SeleniumHelper.scrollBottom();
 	}
 
